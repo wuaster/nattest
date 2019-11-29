@@ -5,6 +5,7 @@ module.exports = {
     "vuetify"
   ],
   assetsDir: '../static',
+  href: '',
   publicPath: '',
   outputDir: path.resolve(__dirname, '../app/templates'),
   runtimeCompiler: undefined,
