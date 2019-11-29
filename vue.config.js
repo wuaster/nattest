@@ -4,7 +4,7 @@ module.exports = {
   transpileDependencies: ["vuetify"],
   assetsDir: "../static",
   publicPath: "/template",
-  outputDir: path.resolve(__dirname, "public/template"),
+  outputDir: path.resolve(__dirname, "/template"),
   runtimeCompiler: undefined,
   productionSourceMap: undefined,
   parallel: undefined,
