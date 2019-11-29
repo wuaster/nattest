@@ -1,0 +1,6 @@
+[build]
+  publish = "public/"
+  command = "npm run generate"
+
+[context.production.environment]
+ CUSTOM_ENV_VAR = "custom env value."
