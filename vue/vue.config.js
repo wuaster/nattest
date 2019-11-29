@@ -5,8 +5,9 @@ module.exports = {
     "vuetify"
   ],
   assetsDir: '../static',
-  baseUrl: './',
-  publicPath: undefined,
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/production-sub-path/'
+    : '/',
   outputDir: path.resolve(__dirname, '../app/templates'),
   runtimeCompiler: undefined,
   productionSourceMap: undefined,
