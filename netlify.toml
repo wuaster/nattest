@@ -1,5 +1,5 @@
 [build]
-  publish = "public/"
+  publish = "app/templates/"
   command = "npm run build"
 
 [context.production.environment]
